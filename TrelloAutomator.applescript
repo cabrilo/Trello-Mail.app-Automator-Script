@@ -56,9 +56,7 @@ on run {input, parameters}
 			end if
 			
 			-- creates a URL to the message, sadly it's not working from Chrome.			
-			set message_url to "[" & theSubject & "](message://%3C" & Â
-				theMessageId & Â
-				"%3E" & ")"
+			set message_url to "[" & theSubject & "](message://%3C" & theMessageId & "%3E" & ")"
 			
 			tell application "JSON Helper"
 				set jsonString to fetch JSON from "https://trello.com/1/members/my/boards?key=" & theAppKey & "&token=" & theUserToken
