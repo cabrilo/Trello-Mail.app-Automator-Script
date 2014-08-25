@@ -3,6 +3,9 @@
 
 An Apple Automator script that allows a hotkey to be used to create a card in Trello 
 
+### Install prerequisites
+* Install JSON Helper for AppleScript from https://itunes.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12
+
 ### Create your automator script:
 * Run Automator
 * Choose Service
